@@ -42,6 +42,7 @@ footer {
 main {
 	overflow: auto;
 	padding: 15px;
+	background-color: lightgrey;
 }
 
 h2, h3 {
