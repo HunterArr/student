@@ -1,0 +1,91 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav	{
+	background-color: #36474E;
+	padding: 5px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+footer {
+	background-color: #36474E;
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+main {
+	overflow: auto;
+	padding: 15px;
+}
+
+h2, h3 {
+	color: #065878;
+}
+
+aside {
+	text-align: center;
+	width: 24%;
+	float: left;
+}
+
+.jumbotron {
+	background-color: #023144;
+	font-size: 20px;
+	padding: 50px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.card {
+	border-radius: 5px;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 gainsboro;
+}
+
+.content {
+	width: 75%;
+	float: right;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.label {
+	background-color: #36474E;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.feature-img {
+	border-radius: 20%;
+}
+
+@media screen and (max-width: 922px) {
+	.content, aside {
+		width: 100%;
+	}
+}
